@@ -11,9 +11,7 @@ const About = () => {
         <h1 className="text-blue-400 uppercase text-xl">Web Developer</h1>
         <p className="text-slate-400 text-md leading-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque in
-          suscipit ea inventore quaerat sed rem animi aspernatur facere. Saepe
-          dolores cupiditate dolor similique architecto incidunt magni commodi
-          fugiat! Cupiditate?
+          suscipit ea inventore quaerat sed rem animi aspernatur facere.
         </p>
       </div>
       <div className="flex flex-col gap-6 py-6">
