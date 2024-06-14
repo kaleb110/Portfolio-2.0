@@ -1,3 +1,4 @@
+
 import { Progress } from "../constants";
 
 const About = () => {
@@ -19,10 +20,12 @@ const About = () => {
           <div key={item.text} className="flex flex-col gap-2">
             <div className="flex justify-between">
               <a className="text-white text-lg ">{item.text}</a>
-              <a className="text-white text-lg pl-5 ">{ item.label}</a>
+              <a className="text-white text-lg pl-5 ">{item.label}</a>
             </div>
-            <div className="bg-white w-full h-1.5 rounded-md">
-              <div className="bg-blue-500 w-[70%] h-full rounded-md"></div>
+            <div className="bg-white w-full h-1.5 rounded-md ">
+              <div
+                className={`bg-blue-500 h-full rounded-md ${item.label === "80%" ? "w-[80%]" : item.label === "70%" ? "w-[70%]" : "w-[55%] "}`}
+              ></div>
             </div>
           </div>
         ))}

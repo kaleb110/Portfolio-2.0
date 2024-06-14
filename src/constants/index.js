@@ -41,7 +41,7 @@ export const socialLinks = [
 export const Progress = [
   {
     text: "Html",
-    label: "90%",
+    label: "80%",
   },
   {
     text: "Css",
@@ -49,9 +49,11 @@ export const Progress = [
   },
   {
     text: "Javascript",
-    label: "45%",
+    label: "55%",
   },
 ];
+
+
 
 export const projects = [
   {
@@ -67,7 +69,7 @@ export const projects = [
   {
     title: "Login Page",
     description: `
-Introducing our login page project created with React, HTML, and Tailwind CSS. It's a user-friendly interface designed for seamless authentication. With HTML's structure and Tailwind CSS's styling, it offers a sleek and intuitive login experience. Simplify your access management with our modern login page solution.
+Introducing our login page project created with React, HTML, and Tailwind CSS. It's a user-friendly interface designed for seamless authentication. With HTML's structure and Tailwind CSS's styling, it offers a sleek and intuitive login experience. 
 `,
     image: pro2,
     tags: ["React", "JavaScript"],
@@ -76,8 +78,8 @@ Introducing our login page project created with React, HTML, and Tailwind CSS. I
     id: 1,
   },
   {
-    title: "Calculator",
-    description: `Check out our "Even or Odd" project, crafted with React, HTML, and Tailwind CSS. It's a fun and interactive application that lets you determine if a number is even or odd with just a click. Using React for dynamic updates and HTML for structure, it's easy to use and understand.`,
+    title: "Weather app",
+    description: `Check out our Weather App project, built with React, HTML, and Tailwind CSS. It's a simple and interactive app that gives you instant weather updates for any city. With React for quick updates and HTML for structure, it's easy to use and understand.`,
     image: pro3,
     tags: ["Javascript", "React"],
     code: "https://github.com/kaleb110",
@@ -85,11 +87,11 @@ Introducing our login page project created with React, HTML, and Tailwind CSS. I
     id: 2,
   },
   {
-    title: "Simple Portfolio",
+    title: "To do app",
     description: `
-Discover Simple Portfolio, a clean and straightforward showcase crafted solely with HTML and CSS. This minimalist platform offers an elegant display for your work or achievements without the need for complex frameworks.`,
+Check out our To Do list project, built with React, HTML, and Tailwind CSS. It's a simple and interactive app that helps you manage your to-do list effortlessly. With React for quick updates and HTML for structure, it's easy to use and understand.`,
     image: pro4,
-    tags: ["Html", "Css"],
+    tags: ["tailwind", "javascript"],
     code: "https://github.com/kaleb110",
     live: "https://github.com/kaleb110",
     id: 3,
